@@ -1,4 +1,4 @@
-This is a collection of a few YASnippets for the quick creation of
+This is a collection of a few [YASnippets](https://github.com/joaotavora/yasnippet) for the quick creation of
 categorical diagrams in emacs. The snippets mostly use tikzcd.
 
 ## Usage
