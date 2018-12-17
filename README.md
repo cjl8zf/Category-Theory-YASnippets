@@ -22,7 +22,8 @@ the relevant parts. So instead of manually typing out
 & I \arrow[r,"h"]
 & J \\
 \end{tikzcd}
-\end{center}```
+\end{center}
+```
 
 with this collection of snippets you could type `4-box` and then hit
 tab (or what ever your yasnippet completion is set to) and this would
@@ -41,7 +42,8 @@ complete to
 &  \arrow[r,""]
 &  \\
 \end{tikzcd}
-\end{center}```
+\end{center}
+```
 
 Your cursor would appear before the first `\arrow[r,""]` and by
 pressing tab your cursor will move around to the relevant fields.
