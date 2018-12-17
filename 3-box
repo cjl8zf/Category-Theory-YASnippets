@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: 3-Box
+# key: 3-box
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+$1 \\arrow[r,"$8"] \\arrow[d,"$9"] & $2  \\arrow[r,"$10"] \\arrow[d,"$11"]
+& $3 \arrow[r,"$12"] \\arrow[d,"$13"] & $4 \\arrow[d,"$14"]\\\\
+$5 \\arrow[r,"$15"]& $6 \\arrow[r,"$16"] & $7 \\arrow[r,"$17"] & $8 \\\\
+\\end{tikzcd}
+\\end{center}
+$0  

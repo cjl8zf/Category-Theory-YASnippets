@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: 4-Box
+# key: 4-box
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+  $1  \\arrow[r,"$11"] \\arrow[d,"$19"]
+& $2  \\arrow[r,"$12"] \\arrow[d,"$20"]
+& $3  \arrow[r,"$13"]  \\arrow[d,"$21"]
+& $4  \arrow[r,"$14"]  \\arrow[d,"$22"] 
+& $5                   \\arrow[d,"$23"]\\\\
+  $6  \\arrow[r,"$15"]
+& $7  \\arrow[r,"$16"]
+& $8  \\arrow[r,"$17"]
+& $9 \\arrow[r,"$18"]
+& $10 \\\\
+\\end{tikzcd}
+\\end{center}
+$0  

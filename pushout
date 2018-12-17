@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Pushout
+# key: pushout
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+$1 \\arrow[r,"$5"] \\arrow[d,"$6"]& $2 \\arrow[d,"$7"]\\\\
+$3 \\arrow[r,"$8"]& $4 
+\\end{tikzcd}
+\\end{center}
+$0

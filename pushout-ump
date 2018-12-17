@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Universal Mapping Property of Pushout
+# key: pushout-ump
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+$1 \\arrow[r,"$6"] \\arrow[d,"$7"]& $2 \\arrow[d,"$8"] \\arrow[ddrr, bend left = 20,"$11"]\\\\
+$3 \\arrow[r,"$9"] \\arrow[drrr,bend right = 20,"$10"]&  $4 \\arrow[drr,"$12",dashed]\\\\
+&&&  $5.
+\\end{tikzcd}
+\\end{center}
+$0

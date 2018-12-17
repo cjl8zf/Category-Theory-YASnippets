@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Adjoint Pair
+# key: adjoint-pair
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+  \\begin{tikzcd}
+    $1 \\arrow[r,yshift=.5em,"$3"]& \\arrow[l,yshift=-.5em,"$4"] $2
+  \\end{tikzcd}
+\\end{center}
+
+$0

@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: 5-Box
+# key: 5-box
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+  $1  \\arrow[r,"$13"] \\arrow[d,"$23"]
+& $2  \\arrow[r,"$14"] \\arrow[d,"$24"]
+& $3  \arrow[r,"$15"]  \\arrow[d,"$25"]
+& $4  \arrow[r,"$16"]  \\arrow[d,"$26"] 
+& $5  \arrow[r,"$17"]  \\arrow[d,"$27"]
+& $6                   \\arrow[d,"$28"]\\\\
+  $7  \\arrow[r,"$18"]
+& $8  \\arrow[r,"$19"]
+& $9  \\arrow[r,"$20"]
+& $10 \\arrow[r,"$21"]
+& $11 \\arrow[r,"$22"]
+& $12 \\\\
+\\end{tikzcd}
+\\end{center}
+$0  

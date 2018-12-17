@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: 2-Box
+# key: 2-box
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+  $1 \\arrow[r,"$7"] \\arrow[d,"$8"]
+& $2 \\arrow[r,"$9"] \\arrow[d,"$10"]
+& $3 \\arrow[d,"$11"]\\\\
+  $4 \\arrow[r,"$12"]
+& $5 \\arrow[r,"$13"]
+& $6 \\\\
+\\end{tikzcd}
+\\end{center}
+$0 

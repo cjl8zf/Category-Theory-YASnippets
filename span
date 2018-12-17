@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: inline span diagram
+# key: inline-span
+# contributor: Chris Lloyd
+# --
+\\($1 \xleftarrow{$4} $2 \xrightarrow{$5} $3 \\) $0

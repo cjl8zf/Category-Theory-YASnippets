@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: cofibration diagram
+# key: cofibration
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+$1 \\arrow[rr,"i_0"] \\arrow[dd,"$3"] & & $1 \\times I \\arrow[dd,"$3 \\times 1_I"] \\arrow[ddl,"$6"]\\\\
+& $4\\\\
+$2 \\arrow[rr,"i_0"] \\arrow[ur,"$5"]& & $2 \\times I \\arrow[ul,dashed,"$7"]
+\\end{tikzcd}
+\\end{center}
