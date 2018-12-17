@@ -13,9 +13,9 @@ the relevant parts. So instead of manually typing out
 \begin{tikzcd}
   A  \arrow[r,"a"] \arrow[d,"i"]
 & B  \arrow[r,"b"] \arrow[d,"j"]
-& C  \arrow[r,"c"]  \arrow[d,"k"]
-& D  \arrow[r,"d"]  \arrow[d,"l"] 
-& E                   \arrow[d,"m"]\\
+& C  \arrow[r,"c"] \arrow[d,"k"]
+& D  \arrow[r,"d"] \arrow[d,"l"] 
+& E                \arrow[d,"m"]\\
   F  \arrow[r,"e"]
 & G  \arrow[r,"f"]
 & H  \arrow[r,"g"]
@@ -26,16 +26,16 @@ the relevant parts. So instead of manually typing out
 ```
 
 with this collection of snippets you could type `4-box` and then hit
-tab (or what ever your yasnippet completion is set to) and this would
+tab (or whatever your yasnippet completion is set to) and this would
 complete to
 
 ```\begin{center}
 \begin{tikzcd}
     \arrow[r,""] \arrow[d,""]
 &   \arrow[r,""] \arrow[d,""]
-&   \arrow[r,""]  \arrow[d,""]
-&   \arrow[r,""]  \arrow[d,""] 
-&                    \arrow[d,""]\\
+&   \arrow[r,""] \arrow[d,""]
+&   \arrow[r,""] \arrow[d,""] 
+&                \arrow[d,""]\\
     \arrow[r,""]
 &   \arrow[r,""]
 &   \arrow[r,""]
