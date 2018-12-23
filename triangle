@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: triangle
+# key: triangle
+# contributor: Chris Lloyd
+# --
+\\begin{center}
+\\begin{tikzcd}
+& $3 \\arrow[dl,"$6",swap]\\\\
+$1 \\arrow[rr,"$4",swap] && $2 \\arrow[ul,"$5",swap]
+\\end{tikzcd}
+\\end{center}
+$0
